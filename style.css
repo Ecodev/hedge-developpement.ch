@@ -1,0 +1,58 @@
+/*
+Theme Name:     Happenstance-hedge-developpement.ch
+Theme URI:      
+Description:    Happenstance child theme.
+Author:         Ecodev
+Author URI:     http://ecodev.ch
+Template:       happenstance
+Version:        0.1.0
+*/
+
+@import '../happenstance/style.css';
+
+
+/* Override default blue with our variant of blue */
+a,
+.site-title a,
+.post-entry .post-entry-headline a,
+.grid-entry .grid-entry-headline a,
+.sidebar-widget a {
+  color: #395a8f;
+}
+
+.menu-box-wrapper {
+  border-bottom-color: #395a8f;
+}
+    
+    
+.menu-box ul ul {
+  border-top-color: #395a8f;
+}    
+    
+#header .menu-box .current-menu-item > a,
+#header .menu-box .current-menu-ancestor > a,
+#header .menu-box .current_page_item > a,
+#header .menu-box .current-page-ancestor > a,
+.home #header .menu-box .link-home,
+.post-entry .read-more-button:hover,
+.grid-entry .read-more-button:hover ,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+#searchform .send:hover {
+  background-color: #395a8f;
+}
+
+/* Override second blue variant */
+.post-entry .read-more-button,
+.grid-entry .read-more-button,
+input[type="submit"],
+input[type="reset"],
+#searchform .searchform-wrapper .send {
+  background-color: #678bc4;
+}
+
+/* Override the third and last blue variant */
+#footer a,
+.footer-signature .footer-signature-content a {
+  color: #c2e3f5;          
+} 
