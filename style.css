@@ -55,4 +55,27 @@ input[type="reset"],
 #footer a,
 .footer-signature .footer-signature-content a {
   color: #c2e3f5;          
-} 
+}
+
+table.no-border, .no-border td, .no-border tr {
+  border: none;
+}
+
+.no-border h6 {
+  margin-top: 0px;
+}
+
+.no-border h6::before {
+  background-image: url('arrow.svg');
+  display: inline-block;
+  width: 32px;
+  height: 22px;
+  content: '';
+  margin-right: 10px;
+  top: 6px;
+  position: relative;
+}
+
+.no-border td:first-child {
+min-width: 150px;
+}
