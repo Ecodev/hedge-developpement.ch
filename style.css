@@ -77,5 +77,16 @@ table.no-border, .no-border td, .no-border tr {
 }
 
 .no-border td:first-child {
-min-width: 150px;
+  min-width: 150px;
+}
+
+.entry-headline {
+  font-size: 23px;
+}
+h2 {
+  font-size: 17px;
+}
+
+h3 {
+  font-size: 15px;
 }
