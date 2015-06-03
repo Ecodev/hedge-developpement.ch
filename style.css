@@ -90,3 +90,13 @@ h2 {
 h3 {
   font-size: 15px;
 }
+
+.wpcf7 .label   {
+  min-width: 90px;
+  display: inline-block;
+  text-align: right;
+}
+.wpcf7 .required::after {
+  content: ' *';
+  color: red;
+}
