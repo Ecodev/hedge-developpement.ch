@@ -100,3 +100,7 @@ h3 {
   content: ' *';
   color: red;
 }
+
+.home .content-headline {
+  display: none;
+}
